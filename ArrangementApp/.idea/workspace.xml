@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c28debc1-e7c1-4754-bd22-4dbc026fae1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/NySide.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/software/gruppeoblig/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/software/gruppeoblig/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Startside.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Startside.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/software/gruppeoblig/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/software/gruppeoblig/App.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,9 +79,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="javafx:compile" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -131,7 +122,7 @@
       <workItem from="1571308206584" duration="946000" />
       <workItem from="1571310077894" duration="1622000" />
       <workItem from="1571312030906" duration="1875000" />
-      <workItem from="1571388745841" duration="1376000" />
+      <workItem from="1571388745841" duration="1787000" />
     </task>
     <task id="LOCAL−00001" summary="la til en fxml og en klasse">
       <created>1571312682867</created>
@@ -139,7 +130,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1571312682868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="la til en fxml og en klasse">
+      <created>1571390297721</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1571390297721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
