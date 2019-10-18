@@ -1,6 +1,8 @@
 package com.software.gruppeoblig;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
@@ -12,13 +14,14 @@ import javafx.stage.Stage;
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) {
-        var javaVersion = SystemInfo.javaVersion();
-        var javafxVersion = SystemInfo.javafxVersion();
+    public void start(Stage stage) throws Exception {
+        FXMLLoader fxmlinnlaster = new FXMLLoader();
 
-        var label = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-        var scene = new Scene(new StackPane(label), 640, 480);
-        stage.setScene(scene);
+        fxmlinnlaster.setLocation(getClass().getResource("view/Startside.fxml"));
+        Parent rootnode = fxmlinnlaster.load();
+
+        stage.setTitle("Startside");
+        stage.setScene(new Scene(rootnode));
         stage.show();
     }
 
